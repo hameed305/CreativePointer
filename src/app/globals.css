@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* scrolbar  */
+
+::-webkit-scrollbar {
+  width: 0.9em;
+  background: var(--scroll-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(81, 0, 255);
+  border-radius: 4vw;
+  border: 0.2em solid transparent;
+  background-clip: content-box;
+}
+:root {
+  --scroll-bg: white;
+  --them-color: rgb(81, 0, 255);
+  --active-link: rgb(0, 0, 0);
+  --body: radial-gradient(
+      at 11% 100%,
+      hsla(203, 100%, 72%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 100% 100%, hsla(31, 100%, 72%, 1) 0px, transparent 50%),
+    radial-gradient(at 52% 40%, hsla(275, 87%, 68%, 1) 0px, transparent 50%),
+    radial-gradient(at 16% 22%, hsla(25, 100%, 76%, 1) 0px, transparent 50%),
+    radial-gradient(at 93% 30%, hsla(199, 100%, 54%, 1) 0px, transparent 50%),
+    radial-gradient(at 38% 99%, hsla(333, 100%, 53%, 1) 0px, transparent 50%);
+  --bg-color: #999cff;
+}
+.dark {
+  --scroll-bg: rgb(13, 20, 28);
+  --active-link: rgb(81, 0, 255);
+  --bg-color: rgb(0, 7, 18);
+  --body: rgb(0, 0, 0);
+}
+
+body {
+  background-image: var(--body);
+  background-color: var(--bg-color);
+  background-size: cover;
+}
+
+.img_box {
+  animation: hero_img 15s linear infinite;
+}
+
+@keyframes hero_img {
+  50% {
+    transform: translatey(2vw);
+  }
+}
+
+/* styles about header */
+
+.active {
+  border-bottom: 0.2vw solid var(--active-link);
+}
+
+body .home_text .first_anchor:hover span {
+  display: block;
+}
