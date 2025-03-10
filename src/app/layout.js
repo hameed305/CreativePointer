@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <link
         rel="icon"
-        href="/naeemdevzone.png"
+        href="/icon.svg"
         type="image/<generated>"
         sizes="<generated>"
       />

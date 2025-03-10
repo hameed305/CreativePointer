@@ -86,7 +86,7 @@ const Header = () => {
           href="/"
           className="pl-3 flex gap-2 items-center max-md:justify-end"
         >
-          <Image src="/naeemdevzone.png" width={50} height={50} alt="logo" />
+          <Image src="/icon.svg" width={50} height={50} alt="logo" />
         </Link>
       </div>
 
@@ -98,9 +98,8 @@ const Header = () => {
           <li className="list-none my-0 mx-[0.5rem] ">
             <Link
               href="/"
-              className={`link ${
-                pathname === "/" ? "active" : ""
-              } flex items-center justify-center text-[(--black-color)] p-[0.7rem] rounded-sm hover:bg-white hover:bg-opacity-50 dark:hover:bg-violet-800`}
+              className={`link ${pathname === "/" ? "active" : ""
+                } flex items-center justify-center text-[(--black-color)] p-[0.7rem] rounded-sm hover:bg-white hover:bg-opacity-50 dark:hover:bg-violet-800`}
             >
               <BsHouse />
             </Link>
@@ -109,9 +108,8 @@ const Header = () => {
           <li className="list-none my-0 mx-[0.5rem]">
             <Link
               href="/about"
-              className={`link ${
-                pathname === "/about" ? "active" : ""
-              } flex items-center justify-center text-[(--black-color)] p-[0.7rem] rounded-sm  hover:bg-white hover:bg-opacity-50 dark:hover:bg-violet-800 `}
+              className={`link ${pathname === "/about" ? "active" : ""
+                } flex items-center justify-center text-[(--black-color)] p-[0.7rem] rounded-sm  hover:bg-white hover:bg-opacity-50 dark:hover:bg-violet-800 `}
             >
               <BsInfoSquare />
             </Link>
@@ -120,9 +118,8 @@ const Header = () => {
           <li className="list-none my-0 mx-[0.5rem]">
             <Link
               href="/portfolio"
-              className={`link ${
-                pathname === "/portfolio" ? "active" : ""
-              } flex items-center justify-center text-[(--black-color)] p-[0.7rem] rounded-sm  hover:bg-white hover:bg-opacity-50 dark:hover:bg-violet-800 `}
+              className={`link ${pathname === "/portfolio" ? "active" : ""
+                } flex items-center justify-center text-[(--black-color)] p-[0.7rem] rounded-sm  hover:bg-white hover:bg-opacity-50 dark:hover:bg-violet-800 `}
             >
               <BsJournalCode />
             </Link>
@@ -131,9 +128,8 @@ const Header = () => {
           <li className="list-none my-0 mx-[0.5rem]">
             <Link
               href="/blog"
-              className={`link ${
-                pathname === "/blog" ? "active" : ""
-              } flex items-center justify-center text-[(--black-color)] p-[0.7rem] rounded-sm  hover:bg-white hover:bg-opacity-50 dark:hover:bg-violet-800 `}
+              className={`link ${pathname === "/blog" ? "active" : ""
+                } flex items-center justify-center text-[(--black-color)] p-[0.7rem] rounded-sm  hover:bg-white hover:bg-opacity-50 dark:hover:bg-violet-800 `}
             >
               <BsBook />
             </Link>
@@ -143,9 +139,8 @@ const Header = () => {
         <div className="pr-4 flex items-center justify-end flex-wrap gap-8 max-md:w-full max-md:items-center max-md:justify-center max-md:pr-0 max-md:mt-4">
           <Link
             href="/contact"
-            className={`link ${
-              pathname === "/contact" ? "active" : ""
-            } flex items-center justify-center text-[(--black-color)] p-[0.7rem] rounded-sm  hover:bg-white hover:bg-opacity-50 dark:hover:bg-violet-800 `}
+            className={`link ${pathname === "/contact" ? "active" : ""
+              } flex items-center justify-center text-[(--black-color)] p-[0.7rem] rounded-sm  hover:bg-white hover:bg-opacity-50 dark:hover:bg-violet-800 `}
           >
             <BsPersonFill />
           </Link>

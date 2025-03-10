@@ -1,7 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import { BsFacebook, BsWhatsapp, BsInstagram } from "react-icons/bs";
-
 const Contact = () => {
   return (
     <section className="body-font relative">
@@ -73,10 +70,6 @@ const Contact = () => {
                 value="SUBMIT"
                 className="mx-auto bg-white p-3 w-[150px] rounded-full dark:bg-slate-700 hover:bg-opacity-50 cursor-pointer block"
               />
-            </div>
-            <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-              <a className="text-blue-500">mrcode@gmail.com</a>
-              <p className="leading-normal my-5">kili landi kuchlak quetta</p>
             </div>
           </div>
         </div>

@@ -16,7 +16,7 @@ const Hero = () => {
         <h3 className="text-3xl dark:text-slate-300 max-xl:text-2xl max-lg:text-center">
           <TypeAnimation
             sequence={[
-              "TO NaeemDevZone.com",
+              "TO Creative Pointer Studio",
               3000,
               "The best stylish web design creativity",
               3000,

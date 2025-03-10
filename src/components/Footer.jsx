@@ -6,14 +6,14 @@ import { BsDribbble, BsLinkedin, BsTiktok, BsInstagram } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <footer className="flex items-center justify-center gap-10 flex-col p-4 dark:bg-slate-800">
+    <footer className="flex items-center justify-center gap-10 flex-col p-4 dark:bg-slate-800 mt-20">
       <div className="flex justify-between gap-4 flex-wrap w-full p-2 max-lg:flex-col max-lg:items-center">
         <div className="flex gap-4 flex-col items-start justify-start w-[300px] max-lg:w-full max-lg:items-center">
           <div className="flex items-center justify-center gap-4">
-            <Image src="/naeemdevzone.png" width={50} height={50} alt="logo" />
-            <h1 className="text-xl font-bold">NaeemDevZone</h1>
+            <Image src="/icon.svg" width={50} height={50} alt="logo" />
+            <h1 className="text-xl font-bold">Creative Pointer</h1>
           </div>
-          <p className="text-center max-lg:text-center">
+          <p>
             Please contact us any time for order or have a question
           </p>
           <Link
@@ -32,10 +32,10 @@ const Footer = () => {
             <Link href="/blog">Blog</Link>
           </div>
           <div className="flex justify-center gap-4 flex-wrap flex-col mx-20 max-lg:mx-0 max-lg:items-center max-lg:w-full max-lg:flex-row">
-            <Link href="">Services</Link>
+            <Link href="/#services">Services</Link>
             <Link href="/portfolio">Portfolio</Link>
-            <Link href="">Testimonials</Link>
-            <Link href="">Careers</Link>
+            <Link href="/privacy_policy">Privacy Policy</Link>
+            <Link href="/terms_of_services">Terms of Services</Link>
           </div>
         </div>
       </div>
