@@ -11,28 +11,26 @@ const Home = () => {
     {
       release: "2 hours ago",
       read_time: "23 mint",
-      blog_title: "New Monkey logo design",
-      blog_content: "a best logo design the is the sign of best gamerz",
+      blog_title: "First Blog Title",
+      blog_content: "This is the content of the first blog post...",
       blog_img: "/img/pro_3.png",
-      url: "/blog/first_post",
+      url: "/blog/getting-started-react",
     },
     {
       release: "2 hours ago",
       read_time: "23 mint",
-      blog_title: "New Vs code them for developers",
-      blog_content:
-        "Try this new vs code them for your development expierence and make your work easy",
+      blog_title: "Second Blog Title",
+      blog_content: "This is the content of the second blog post...",
       blog_img: "/img/pro_1.png",
-      url: "/blog/second_post",
+      url: "/blog/css-grid-flexbox",
     },
     {
       release: "2 hours ago",
       read_time: "23 mint",
-      blog_title: "New Vs code them for developers",
-      blog_content:
-        "Try this new vs code them for your development expierence and make your work easy",
+      blog_title: "Third Blog Title",
+      blog_content: "This is the content of the third blog post...",
       blog_img: "/img/pro_2.png",
-      url: "/blog/third_post",
+      url: "/blog/advanced-javascript-patterns",
     },
   ];
   return (
@@ -46,7 +44,7 @@ const Home = () => {
       <Title props="My Skills" />
       <Skill />
       <Title props="Latest Blogs" />
-      <section className="flex items-center justify-center gap-10 w-full">
+      <section className="pt-2 flex items-center justify-center gap-10 w-full max-md:flex-col">
         {Post.map((post, index) => {
           return (
             <Blog_section

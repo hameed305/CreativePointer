@@ -10,8 +10,8 @@ const Footer = () => {
       <div className="flex justify-between gap-4 flex-wrap w-full p-2 max-lg:flex-col max-lg:items-center">
         <div className="flex gap-4 flex-col items-start justify-start w-[300px] max-lg:w-full max-lg:items-center">
           <div className="flex items-center justify-center gap-4">
-            <Image src="/icon.svg" width={50} height={50} alt="logo" />
-            <h1 className="text-xl font-bold">Creative Pointer</h1>
+            <Image src="/transperent logo.svg" width={50} height={50} alt="logo" />
+            <h1 className="text-xl font-bold text-slate-200 dark:text-slate-600">Creative Pointer</h1>
           </div>
           <p>
             Please contact us any time for order or have a question
@@ -42,29 +42,29 @@ const Footer = () => {
 
       <div className="bg-white dark:bg-slate-700 dark:text-slate-300 bg-opacity-70 rounded-lg w-full p-4 flex items-center justify-between max-lg:flex-col max-lg:items-center max-lg:gap-4">
         <p className="text-center">
-          All Rights Reserved | 2024 | www.mrcode.com
+          All Rights Reserved | 2025 | www.creativepointer.com
         </p>
         <div className="flex items-center justify-center gap-4 flex-wrap">
           <Link
-            href=""
+            href="#"
             className="rounded-full flex items-center justify-center p-2 bg-white dark:bg-slate-900 dark:text-white text-xl hover:animate-spin hover:bg-violet-500 hover:text-white dark:hover:bg-violet-500"
           >
             <BsDribbble />
           </Link>
           <Link
-            href=""
+            href="#"
             className="rounded-full flex items-center justify-center p-2 bg-white dark:bg-slate-900 dark:text-white text-xl hover:animate-spin hover:bg-blue-500 hover:text-white dark:hover:bg-blue-500"
           >
             <BsLinkedin />
           </Link>
           <Link
-            href=""
+            href="#"
             className="rounded-full flex items-center justify-center p-2 bg-white dark:bg-slate-900 dark:text-white text-xl hover:animate-spin hover:bg-black hover:text-white dark:hover:bg-black"
           >
             <BsTiktok />
           </Link>
           <Link
-            href=""
+            href="#"
             className="rounded-full flex items-center justify-center p-2 bg-white dark:bg-slate-900 dark:text-white text-xl hover:animate-spin hover:bg-purple-500 hover:text-white dark:hover:bg-purple-500"
           >
             <BsInstagram />

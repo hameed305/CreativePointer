@@ -3,7 +3,6 @@ import Link from "next/link";
 import React, { useState } from "react";
 import Image from "next/image";
 import { BsChevronDown, BsChevronUp } from "react-icons/bs";
-
 const About = () => {
   const [expandicon_1, seticon_1] = useState(false);
   const [expandicon_2, seticon_2] = useState(false);
@@ -18,14 +17,14 @@ const About = () => {
             <h1 className="mb-4 text-6xl font-showgothic w-full text-transparent font-bold bg-clip-text bg-gradient-to-r from-purple-500 to-blue-500 max-md:text-5xl">
               HELLO !
             </h1>
-            <h1 className="dark:text-[var(--them-color)] title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+            <h1 className="dark:text-[var(--them-color)] title-font sm:text-4xl text-3xl mb-4 font-medium">
               I am Naeem Khan <br />
               <span className="text-xl text-[var(--them-color)]">
                 a web developer and logo designer
               </span>
             </h1>
             <p className="mb-8 leading-relaxed">
-              I'm a passionate Web Developer with expertise in both frontend and
+              I&apos;m a passionate Web Developer with expertise in both frontend and
               backend development
             </p>
             <div className="flex justify-center gap-4">
@@ -43,7 +42,7 @@ const About = () => {
               width={300}
               height={300}
               alt="img"
-              className="rounded-xl"
+              className="rounded-xl w-auto h-auto"
             />
           </div>
         </div>
@@ -71,7 +70,7 @@ const About = () => {
                 <h2 className="text-2xl font-semibold text-center text-gray-600 dark:text-gray-300">Web Developer & Graphic Designer</h2>
 
                 <p className="text-lg text-gray-700 dark:text-gray-300 text-justify">
-                  Hello, I'm <strong>Naeem Khan</strong>, a passionate and versatile 22-year-old web developer and graphic designer from Pakistan. With a strong foundation in frontend web development, I specialize in creating dynamic, user-centric websites that are both functional and visually appealing. My expertise extends to backend development using Node.js and Express.js, as well as managing databases with MongoDB.
+                  Hello, I&apos;m <strong>Naeem Khan</strong>, a passionate and versatile 22-year-old web developer and graphic designer from Pakistan. With a strong foundation in frontend web development, I specialize in creating dynamic, user-centric websites that are both functional and visually appealing. My expertise extends to backend development using Node.js and Express.js, as well as managing databases with MongoDB.
                 </p>
 
                 <p className="text-lg text-gray-700 dark:text-gray-300 text-justify">
@@ -79,7 +78,7 @@ const About = () => {
                 </p>
 
                 <p className="text-lg text-gray-700 dark:text-gray-300 text-justify">
-                  I am always eager to learn new skills, collaborate with talented teams, and take on challenging projects that push me to grow professionally. Let’s connect and create something amazing together!
+                  I am always eager to learn new skills, collaborate with talented teams, and take on challenging projects that push me to grow professionally. Let&apos;s connect and create something amazing together!
                 </p>
               </div>
             </div>
@@ -112,15 +111,15 @@ const About = () => {
                 </p>
 
                 <p className="text-lg text-gray-700 dark:text-gray-300 text-justify">
-                  On this platform, you'll find a variety of projects that highlight my skills in frontend development, backend programming with Node.js and Express.js, and working with databases like MongoDB. I also share educational content, including tutorials and lessons to help others learn and grow in the field of web development and design.
+                  On this platform, you&apos;ll find a variety of projects that highlight my skills in frontend development, backend programming with Node.js and Express.js, and working with databases like MongoDB. I also share educational content, including tutorials and lessons to help others learn and grow in the field of web development and design.
                 </p>
 
                 <p className="text-lg text-gray-700 dark:text-gray-300 text-justify">
-                  In addition to my website, you can connect with me across various social media platforms, including my <a href="https://www.youtube.com/channel/your_channel" className="text-indigo-600 dark:text-indigo-400 hover:underline" target="_blank">YouTube channel</a>, where I share coding tutorials and design tips, and my <a href="https://www.instagram.com/your_instagram" className="text-indigo-600 dark:text-indigo-400 hover:underline" target="_blank">Instagram</a>, where I post design inspiration and behind-the-scenes content. I’m also active on other platforms, always ready to engage with the creative community.
+                  In addition to my website, you can connect with me across various social media platforms, including my <a href="https://www.youtube.com/channel/your_channel" className="text-indigo-600 dark:text-indigo-400 hover:underline" target="_blank">YouTube channel</a>, where I share coding tutorials and design tips, and my <a href="https://www.instagram.com/your_instagram" className="text-indigo-600 dark:text-indigo-400 hover:underline" target="_blank">Instagram</a>, where I post design inspiration and behind-the-scenes content. I&apos;m also active on other platforms, always ready to engage with the creative community.
                 </p>
 
                 <p className="text-lg text-gray-700 dark:text-gray-300 text-justify">
-                  Whether you're here to explore my work, learn something new, or collaborate on exciting projects, I’m thrilled to have you! Let’s connect and create something amazing together.
+                  Whether you&apos;re here to explore my work, learn something new, or collaborate on exciting projects, I&apos;m thrilled to have you! Let&apos;s connect and create something amazing together.
                 </p>
               </div>
             </div>
@@ -143,9 +142,11 @@ const About = () => {
           <div className="flex flex-wrap -m-4">
             <div className="p-4 lg:w-1/3 md:w-1/2 w-full">
               <div className="h-full bg-gray-100 dark:bg-gray-800 p-8 rounded-3xl shadow-lg transform transition duration-500 hover:scale-105">
-                <img
+                <Image
+                  width={16}
+                  height={16}
                   alt="Photoshop"
-                  className="block w-16 h-16 object-cover object-center mb-4 mx-auto"
+                  className="block w-auto h-auto object-cover object-center mb-4 mx-auto"
                   src="/img/adobe-photoshop.png"
                 />
                 <div className="text-center">
@@ -158,9 +159,11 @@ const About = () => {
             </div>
             <div className="p-4 lg:w-1/3 md:w-1/2 w-full">
               <div className="h-full bg-gray-100 dark:bg-gray-800 p-8 rounded-3xl shadow-lg transform transition duration-500 hover:scale-105">
-                <img
+                <Image
+                  width={16}
+                  height={16}
                   alt="Illustrator"
-                  className="block w-16 h-16 object-cover object-center mb-4 mx-auto"
+                  className="block w-auto h-auto object-cover object-center mb-4 mx-auto"
                   src="/img/adobe-illustrator.png"
                 />
                 <div className="text-center">
@@ -173,9 +176,18 @@ const About = () => {
             </div>
             <div className="p-4 lg:w-1/3 md:w-1/2 w-full">
               <div className="h-full bg-gray-100 dark:bg-gray-800 p-8 rounded-3xl shadow-lg transform transition duration-500 hover:scale-105">
-                <img
+                <Image
+                  width={16}
+                  height={16}
                   alt="Video Editing"
-                  className="block w-16 h-16 object-cover object-center mb-4 mx-auto"
+                  className="block w-auto h-auto object-cover object-center mb-4 mx-auto"
+                  src="/img/video-editing.png"
+                />
+                <Image
+                  width={16}
+                  height={16}
+                  alt="Video Editing"
+                  className="block w-auto h-auto object-cover object-center mb-4 mx-auto"
                   src="/img/video-editing.png"
                 />
                 <div className="text-center">

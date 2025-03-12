@@ -2,24 +2,20 @@ import React from "react";
 import "tailwindcss/tailwind.css";
 import Image from "next/image";
 import Link from "next/link";
-import Title from "@/components/Title";
 const PortfolioPage = () => {
   const project = [
     {
       img_url: "/img/pro_1.png",
-      url: "/portfolio/project_1",
       content: "A best Stylish form design for web designing...",
       title: "3D FORM DESIGN",
     },
     {
       img_url: "/img/pro_2.png",
-      url: "/portfolio/project_2",
       content: "New Legendary Gaming scout logo design for gamerz...",
       title: "CUSTOM GAMING LOGO DESIGN",
     },
     {
       img_url: "/img/pro_3.png",
-      url: "/portfolio/project_3",
       content: "Monkey music logo design specially made for gamerz and music lovers...",
       title: "MONKEY MUSIC LOGO DESIGN",
     },
@@ -40,7 +36,7 @@ const PortfolioPage = () => {
                     <Image src={pro.img_url} alt={pro.title} width={500} height={300} className="rounded-lg mb-4" />
                     <h3 className="text-xl font-medium mb-2 text-gray-900 dark:text-gray-100">{pro.title}</h3>
                     <p className="text-gray-700 dark:text-gray-300">{pro.content}</p>
-                    <Link href={pro.url} className="text-blue-600 dark:text-blue-400 hover:underline">
+                    <Link href="#" className="text-blue-600 dark:text-blue-400 hover:underline">
                       View Project
                     </Link>
                   </div>

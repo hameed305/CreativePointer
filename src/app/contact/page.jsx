@@ -1,4 +1,3 @@
-import React from "react";
 const Contact = () => {
   return (
     <section className="body-font relative">
@@ -8,9 +7,9 @@ const Contact = () => {
             Contact Us
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-            gentrify.
+            Form does not work yet, but you can contact Us via email
           </p>
+          <a target="_blank" href="https://mailto:naeemofficial305email@gmail.com" className="text-violet-500">Email me</a>
         </div>
         <div className="lg:w-1/2 md:w-2/3 mx-auto">
           <div className="flex flex-wrap -m-2">
@@ -60,7 +59,7 @@ const Contact = () => {
                   placeholder="Feedback/Message..."
                   id="message"
                   name="message"
-                  className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-violet-500 focus:bg-white focus:ring-2 focus:ring-violet-500 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out dark:bg-slate-700"
+                  className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-violet-500 focus:bg-white focus:ring-2 focus:ring-violet-500 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out dark:bg-slate-700 dark:text-slate-100"
                 ></textarea>
               </div>
             </div>

@@ -1,57 +1,7 @@
-import React from "react";
 import Image from "next/image";
 import Blog_card from "@/components/Blog_section";
+import Blogs from "@/Data/Blogs.json";
 const Blog = () => {
-  const Post = [
-    {
-      release: "2 hours ago",
-      read_time: "23 mint",
-      blog_title: "New Monkey logo design",
-      blog_content: "a best logo design the is the sign of best gamerz",
-      blog_img: "/img/pro_3.png",
-      url: "/blog/first_post"
-    },
-    {
-      release: "2 hours ago",
-      read_time: "23 mint",
-      blog_title: "New Vs code them for developers",
-      blog_content: "Try this new vs code them for your development expierence and make your work easy",
-      blog_img: "/img/pro_1.png",
-      url: "/blog/second_post"
-    },
-    {
-      release: "2 hours ago",
-      read_time: "23 mint",
-      blog_title: "New Vs code them for developers",
-      blog_content: "Try this new vs code them for your development expierence and make your work easy",
-      blog_img: "/img/pro_2.png",
-      url: "/blog/third_post"
-    },
-    {
-      release: "2 hours ago",
-      read_time: "23 mint",
-      blog_title: "New Vs code them for developers",
-      blog_content: "Try this new vs code them for your development expierence and make your work easy",
-      blog_img: "/img/pro_4.png",
-      url: "/blog/four_post"
-    },
-    {
-      release: "2 hours ago",
-      read_time: "23 mint",
-      blog_title: "New Vs code them for developers",
-      blog_content: "Try this new vs code them for your development expierence and make your work easy",
-      blog_img: "/img/pro_5.png",
-      url: "/blog/five_post"
-    },
-    {
-      release: "2 hours ago",
-      read_time: "23 mint",
-      blog_title: "New Vs code them for developers",
-      blog_content: "Try this new vs code them for your development expierence and make your work easy",
-      blog_img: "/img/pro_1.png",
-      url: "/blog/six_post"
-    },
-  ]
   return (
     <section className="p-4">
       {/* blog hero section */}
@@ -92,16 +42,17 @@ const Blog = () => {
 
       <article className="flex items-center justify-center gap-10 flex-wrap mt-8 mb-5 w-full">
         {
-          Post.map((post, index) => {
+          Blogs.map((post) => {
             return (
               <Blog_card
-                release={post.release}
-                img_url={post.blog_img}
-                readtime={post.read_time}
-                title={post.blog_title}
-                content={post.blog_content}
-                url={post.url}
-                key={index}
+                release={post.releaseTime}
+                img_url={post.blogImage}
+                readtime={post.readTime}
+                title={post.blogTitle}
+                content={post.blogContent}
+                // url={post.blogUrl}
+                url={`/blog/${post.slug}`}
+                key={post.id}
               />
             )
           })

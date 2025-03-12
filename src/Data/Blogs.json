@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "releaseTime": "2024-01-15",
+    "readTime": "5 min",
+    "blogTitle": "React Development Basics",
+    "blogContent": "A laptop displaying React code, illustrating the basics of React development including components, state management, and hooks.",
+    "blogImage": "/img/Blog/apps.jpg",
+    "blogUrl": "/blog/getting-started-react",
+    "slug": "getting-started-react"
+  },
+  {
+    "id": 2,
+    "releaseTime": "2024-01-12",
+    "readTime": "8 min",
+    "blogTitle": "JavaScript Design Patterns",
+    "blogContent": "A blue zone with JavaScript code, showcasing advanced JavaScript design patterns and best practices.",
+    "blogImage": "/img/Blog/blue zone.jpg",
+    "blogUrl": "/blog/advanced-javascript-patterns",
+    "slug": "advanced-javascript-patterns"
+  },
+  {
+    "id": 3,
+    "releaseTime": "2024-01-10",
+    "readTime": "6 min",
+    "blogTitle": "CSS Complete Course Launched",
+    "blogContent": "A screen showing CSS code, comparing CSS Grid and Flexbox layouts and their use cases.",
+    "blogImage": "/img/Blog/codes.jpg",
+    "blogUrl": "/blog/css-grid-flexbox",
+    "slug": "css-grid-flexbox"
+  },
+  {
+    "id": 4,
+    "releaseTime": "2024-01-08",
+    "readTime": "10 min",
+    "blogTitle": "Node.js Coding Practices",
+    "blogContent": "A person coding on a laptop, discussing essential best practices for building robust Node.js applications.",
+    "blogImage": "/img/Blog/coding.jpg",
+    "blogUrl": "/blog/nodejs-best-practices",
+    "slug": "nodejs-best-practices"
+  },
+  {
+    "id": 5,
+    "releaseTime": "2024-01-05",
+    "readTime": "7 min",
+    "blogTitle": "TypeScript Introduction",
+    "blogContent": "A Docker logo on a screen, introducing TypeScript and its benefits for JavaScript development.",
+    "blogImage": "/img/Blog/docker.jpg",
+    "blogUrl": "/blog/intro-typescript",
+    "slug": "intro-typescript"
+  },
+  {
+    "id": 6,
+    "releaseTime": "2024-01-03",
+    "readTime": "4 min",
+    "blogTitle": "Git Commands Guide",
+    "blogContent": "A person wearing a hoodie working on a laptop, covering essential Git commands and workflows.",
+    "blogImage": "/img/Blog/hacker.jpg",
+    "blogUrl": "/blog/git-essentials",
+    "slug": "git-essentials"
+  },
+  {
+    "id": 7,
+    "releaseTime": "2023-12-30",
+    "readTime": "9 min",
+    "blogTitle": "RESTful API Principles",
+    "blogContent": "JavaScript code on a screen, explaining the principles of designing clean and efficient RESTful APIs.",
+    "blogImage": "/img/Blog/js.jpg",
+    "blogUrl": "/blog/restful-api-design",
+    "slug": "restful-api-design"
+  },
+  {
+    "id": 8,
+    "releaseTime": "2023-12-28",
+    "readTime": "6 min",
+    "blogTitle": "Web Performance Tips",
+    "blogContent": "A laptop on a desk, providing tips and techniques for optimizing web application performance.",
+    "blogImage": "/img/Blog/laptop.jpg",
+    "blogUrl": "/blog/web-optimization",
+    "slug": "web-optimization"
+  },
+  {
+    "id": 9,
+    "releaseTime": "2023-12-25",
+    "readTime": "5 min",
+    "blogTitle": "Latest CSS Features",
+    "blogContent": "A logo design on a screen, discussing the latest CSS features and their applications.",
+    "blogImage": "/img/Blog/logo design.jpg",
+    "blogUrl": "/blog/modern-css-features",
+    "slug": "modern-css-features"
+  },
+  {
+    "id": 10,
+    "releaseTime": "2023-12-23",
+    "readTime": "8 min",
+    "blogTitle": "React State Solutions",
+    "blogContent": "PHP code on a screen, comparing different state management solutions in React.",
+    "blogImage": "/img/Blog/php.jpg",
+    "blogUrl": "/blog/react-state-management",
+    "slug": "react-state-management"
+  },
+  {
+    "id": 11,
+    "releaseTime": "2023-12-20",
+    "readTime": "7 min",
+    "blogTitle": "Docker Development Guide",
+    "blogContent": "A person programming on a laptop, guiding the use of Docker for development environments.",
+    "blogImage": "/img/Blog/programming.jpg",
+    "blogUrl": "/blog/docker-developers",
+    "slug": "docker-developers"
+  },
+  {
+    "id": 12,
+    "releaseTime": "2023-12-18",
+    "readTime": "6 min",
+    "blogTitle": "Testing React Apps",
+    "blogContent": "A project plan on a desk, teaching how to write effective tests for React applications.",
+    "blogImage": "/img/Blog/project.jpg",
+    "blogUrl": "/blog/testing-react-apps",
+    "slug": "testing-react-apps"
+  },
+  {
+    "id": 13,
+    "releaseTime": "2023-12-15",
+    "readTime": "5 min",
+    "blogTitle": "Responsive Web Design",
+    "blogContent": "A person studying with a laptop, covering principles and techniques for creating responsive web designs.",
+    "blogImage": "/img/Blog/study.jpg",
+    "blogUrl": "/blog/responsive-principles",
+    "slug": "responsive-principles"
+  },
+  {
+    "id": 14,
+    "releaseTime": "2023-12-13",
+    "readTime": "8 min",
+    "blogTitle": "GraphQL Basics",
+    "blogContent": "A screen displaying VSCode, explaining GraphQL basics and its differences from traditional REST APIs.",
+    "blogImage": "/img/Blog/vscode.jpg",
+    "blogUrl": "/blog/graphql-fundamentals",
+    "slug": "graphql-fundamentals"
+  },
+  {
+    "id": 15,
+    "releaseTime": "2023-12-13",
+    "readTime": "8 min",
+    "blogTitle": "GraphQL Basics",
+    "blogContent": "A screen displaying VSCode, explaining GraphQL basics and its differences from traditional REST APIs.",
+    "blogImage": "/img/Blog/codes.jpg",
+    "blogUrl": "/blog/graphql-basics",
+    "slug": "graphql-basics"
+  }
+]

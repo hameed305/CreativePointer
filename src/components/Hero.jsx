@@ -32,7 +32,7 @@ const Hero = () => {
           />
         </h3>
         <p className="font-normal text-slate-600 dark:text-[var(--them-color)] max-lg:text-center">
-          Crafting iconic logos that tell your brand’s story. I transform ideas
+          Crafting iconic logos that tell your brand&apos;s story. I transform ideas
           into memorable visual identities
         </p>
         <div className="flex gap-8 items-center flex-wrap">
@@ -63,43 +63,43 @@ const Hero = () => {
         <span className="size-[80px] top-60 z-50 rounded-full absolute animate-pulse left-[80%] blur-md bg-gradient-to-r from-orange-500 to-pink-300 max-lg:top-40 max-lg:-z-50"></span>
         <span className="size-[60px] top-60 z-50 rounded-full absolute animate-pulse left-10 blur-md bg-gradient-to-r from-blue-500 to-voilet-500 max-lg:top-11 max-lg:left-60"></span>
 
-        <div className="-z-10 top-10 right-10 -rotate-45 img_box flex items-center justify-center bg-white bg-opacity-20 backdrop-blur-sm size-[250px] rounded-2xl absolute shadow-lg max-lg:size-[200px] max-md:static max-md:size-[130px]">
+        <div className="-z-10 top-10 right-10 -rotate-45 img_box flex items-center justify-center bg-white bg-opacity-20 backdrop-blur-sm size-[250px] rounded-2xl absolute shadow-lg max-lg:size-[200px] max-md:static max-md:size-[130px] border border-slate-200 dark:border-slate-700">
           <Image
             src="/img/hero_logo_1.png"
             alt="img"
             width={220}
             height={220}
-            className="max-lg:size-[180px] max-md:size-[100px]"
+            className="max-lg:size-[180px] max-md:size-[100px] w-auto h-auto"
           />
         </div>
 
-        <div className="-rotate-6 top-24 -z-30 left-20 img_box flex items-center justify-center bg-white bg-opacity-20 backdrop-blur-sm w-[230px] h-[230px] rounded-2xl absolute shadow-lg max-lg:size-[150px] max-md:static max-md:size-[130px]">
+        <div className="-rotate-6 top-24 -z-30 left-20 img_box flex items-center justify-center bg-white bg-opacity-20 backdrop-blur-sm w-[230px] h-[230px] rounded-2xl absolute shadow-lg max-lg:size-[150px] max-md:static max-md:size-[130px] border border-slate-200 dark:border-slate-700">
           <Image
             src="/img/hero_logo_2.png"
             alt="img"
             width={150}
             height={150}
-            className="max-lg:size-[120px] max-md:size-[100px]"
+            className="max-lg:size-[120px] max-md:size-[100px] w-auto h-auto"
           />
         </div>
 
-        <div className="rotate-12 top-20 -z-40 right-80 img_box flex items-center justify-center bg-white bg-opacity-20 backdrop-blur-sm w-[200px] h-[200px] rounded-2xl absolute shadow-lg max-lg:right-64 max-md:static max-md:size-[130px]">
+        <div className="rotate-12 top-20 -z-40 right-80 img_box flex items-center justify-center bg-white bg-opacity-20 backdrop-blur-sm w-[200px] h-[200px] rounded-2xl absolute shadow-lg max-lg:right-64 max-md:static max-md:size-[130px] border border-slate-200 dark:border-slate-700">
           <Image
             src="/img/hero_logo_3.png"
             alt="img"
             width={150}
             height={150}
-            className=" max-md:size-[100px]"
+            className=" max-md:size-[100px] w-auto h-auto"
           />
         </div>
 
-        <div className="rotate-45 top-0 -z-50 img_box flex items-center justify-center bg-white bg-opacity-20 backdrop-blur-sm w-[150px] h-[150px] rounded-2xl absolute shadow-lg max-lg:w-[100px] max-lg:h-[100px] max-md:static max-md:size-[130px]">
+        <div className="rotate-45 top-0 -z-50 img_box flex items-center justify-center bg-white bg-opacity-20 backdrop-blur-sm w-[150px] h-[150px] rounded-2xl absolute shadow-lg max-lg:w-[100px] max-lg:h-[100px] max-md:static max-md:size-[130px] border border-slate-200 dark:border-slate-700">
           <Image
             src="/img/hero_logo_4.png"
             alt="img"
             width={180}
             height={180}
-            className=" max-md:size-[100px]"
+            className=" max-md:size-[100px] w-auto h-auto"
           />
         </div>
       </div>

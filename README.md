@@ -1,6 +1,6 @@
-# ND zone | NaeemDevZone
+# Creative Pointer
 
-Welcome to NaeemDevZone, a web designing, logo designing, and web development zone.
+Welcome to Creative Pointer, a web designing, logo designing, and web development zone.
 
 ## Table of Contents
 
@@ -38,7 +38,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/hameed305/ND-Zone.git
+   git clone https://github.com/hameed305/Creative-Pointer.git
    ```
 2. Navigate to the project directory:
    ```bash

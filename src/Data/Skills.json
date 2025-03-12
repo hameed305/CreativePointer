@@ -1,0 +1,74 @@
+[
+  {
+    "percentage": "95%",
+    "img": "/img/html.png",
+    "title": "HTML",
+    "shadow": "shadow-red_glow"
+  },
+  {
+    "percentage": "98%",
+    "img": "/img/css.png",
+    "title": "CSS",
+    "shadow": "shadow-blue_glow"
+  },
+  {
+    "percentage": "80%",
+    "img": "/img/js.png",
+    "title": "JAVASCRIPT",
+    "shadow": "shadow-yellow_glow"
+  },
+  {
+    "percentage": "75%",
+    "img": "/img/nodejs.png",
+    "title": "NODEJS",
+    "shadow": "shadow-green_glow"
+  },
+  {
+    "percentage": "90%",
+    "img": "/img/mongodb.png",
+    "title": "MONGODB",
+    "shadow": "shadow-green_glow"
+  },
+  {
+    "percentage": "85%",
+    "img": "/img/ejs.png",
+    "title": "EJS",
+    "shadow": "shadow-yellow_glow"
+  },
+  {
+    "percentage": "87%",
+    "img": "/img/tailwindcss.png",
+    "title": "TAILWINDCSS",
+    "shadow": "shadow-blue_glow"
+  },
+  {
+    "percentage": "85%",
+    "img": "/img/reactjs.png",
+    "title": "REACTJS",
+    "shadow": "shadow-blue_glow"
+  },
+  {
+    "percentage": "90%",
+    "img": "/img/nextjs.png",
+    "title": "NEXTJS",
+    "shadow": "shadow-black_glow"
+  },
+  {
+    "percentage": "85%",
+    "img": "/img/php.png",
+    "title": "PHP",
+    "shadow": "shadow-blue_glow"
+  },
+  {
+    "percentage": "97%",
+    "img": "/img/illustrator.png",
+    "title": "ILLUSTRATOR",
+    "shadow": "shadow-red_glow"
+  },
+  {
+    "percentage": "80%",
+    "img": "/img/figma.png",
+    "title": "FIGMA",
+    "shadow": "shadow-blue_glow"
+  }
+]
