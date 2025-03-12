@@ -4,8 +4,13 @@ import Image from "next/image";
 import Link from "next/link";
 export default async function Blog({ params }) {
     const { slug } = await params;
+    // const { slug } = params;
+    console.log("Params:", params);
+    console.log("Blogs Data:", Blogs);
+
     const blog = Blogs.find((blog) => blog.slug === slug);
 
+    console.log("Matched Blog:", blog);
     if (!blog) {
         notFound();
         return null;
@@ -16,7 +21,8 @@ export default async function Blog({ params }) {
             <Link href="/blog" className="text-blue-500 hover:underline">Back to Blog</Link>
             <h1 className="text-4xl font-semibold text-center text-gray-900 dark:text-gray-100">{blog.blogTitle}</h1>
             <p className="text-slate-500 dark:text-slate-400 text-center">{blog.blogContent}</p>
-            <Image src={blog.blogImage} alt={blog.blogTitle} className="rounded-xl w-full h-auto max-w-4xl" width={auto} height={auto} />
+            <Image src={blog.blogImage} alt={blog.blogTitle} layout="intrinsic" width={800} height={500} />
+
         </div>
     );
 }

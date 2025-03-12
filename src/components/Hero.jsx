@@ -67,8 +67,8 @@ const Hero = () => {
           <Image
             src="/img/hero_logo_1.png"
             alt="img"
-            width={220}
-            height={220}
+            width={190}
+            height={190}
             className="max-lg:size-[180px] max-md:size-[100px] w-auto h-auto"
           />
         </div>
@@ -77,8 +77,8 @@ const Hero = () => {
           <Image
             src="/img/hero_logo_2.png"
             alt="img"
-            width={150}
-            height={150}
+            width={120}
+            height={120}
             className="max-lg:size-[120px] max-md:size-[100px] w-auto h-auto"
           />
         </div>
@@ -87,8 +87,8 @@ const Hero = () => {
           <Image
             src="/img/hero_logo_3.png"
             alt="img"
-            width={150}
-            height={150}
+            width={120}
+            height={120}
             className=" max-md:size-[100px] w-auto h-auto"
           />
         </div>
