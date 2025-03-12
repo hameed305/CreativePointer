@@ -38,7 +38,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/hameed305/Creative-Pointer.git
+   git clone https://github.com/hameed305/CreativePointer.git
    ```
 2. Navigate to the project directory:
    ```bash
